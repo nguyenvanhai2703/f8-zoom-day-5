@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/form.css">
+</head>
+<body>
+    <div class="form-contaner">
+        <form autocomplete="off">
+            <div class="form-gr">
+                <label for="name">Họ và tên</label>
+                <input type="text"
+                spellcheck="false"
+                 id="name" 
+                 placeholder="Họ và tên"
+                 >
+            </div>
+            <div class="form-gr">
+                <label for="email">Email</label>
+                <input type="email"
+                spellcheck="false"
+                id="email"
+                placeholder="Email">
+            </div>
+            <div class="form-gr">
+                <label for="sodienthoai">Số điện thoại</label>
+                <input type="number"
+                spellcheck="true"
+                id="sodienthoai"
+                placeholder="Số điện thoại">
+            </div>
+            <div class="form-gr">
+                <label for="password">Password</label>
+                <input type="password"
+                spellcheck="false"
+                id="password"
+                placeholder="Password">
+            </div>
+            <div class="form-gr">
+                <label for="confirm">Confirm Password</label>
+                <input type="password" 
+                spellcheck="false"
+                id="confirm"
+                placeholder="Nhập lại mật khẩu">
+            </div>
+            <div class="form-gr">
+                <label>Giới Tính</label>
+                <div class="gender">
+                    <label >
+                        <input type="radio" name="gender" id="male">Male </label>
+                    <label >
+                        <input type="radio" name="gender" id="female"> Female
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" id="other"> Other
+                    </label>
+                </div>
+            </div>
+            <div class="form-gr">
+                <label for="date">Date of Birth</label>
+                <input type="date" id="date">
+            </div>
+            <div class="form-gr">
+                <label for="address">Address</label>
+                <input type="address"
+                id="address"
+                placeholder="Địa chỉ ">
+            </div>
+            <div class="form-gr">  
+                <strong>Profile Picture (Avatar)</strong> 
+                <label >
+                    <img class="avat-img" src="/7.png" alt="">
+                    <input type="file"
+                    accept="img"
+                    hidden
+                    >
+                </label>
+            </div>
+            <div class="form-gr">
+                <label>Communication Preferences</label>
+                <div class="check-box">
+                <label class="check" id="check1"> </label>
+                <input type="checkbox" name="check" id="check1">Subscribe to Newsletter (Nhận bản tin định kỳ)
+                <label class="check" id="check2">    </label>
+                <input type="checkbox" name="check" id="check2">Receive Promotional Emails (Nhận thông tin khuyến mãi)
+                 <label class="check" id="check3">   </label>
+                <input type="checkbox" name="check" id="check3" >Get Product Updates (Nhận cập nhật sản phẩm mới)
+         
+        </div>
+        <div class="btn">
+              <button class="submit" type="submit">Submit</button>
+             <button class="reset" type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+</body>
+</html>

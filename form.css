@@ -1,0 +1,152 @@
+/* form */
+body {
+  background-color: papayawhip;
+  margin: 0 auto;
+  font-size: 14px;
+  display: flex;
+  font-family: ssystem-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.form-contaner {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+  margin-top: 20px;
+}
+.form-gr {
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+#name,
+#email,
+#address,
+#password,
+#sodienthoai,
+#confirm,
+#date {
+  width: 500px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 15px;
+  outline: none;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+input {
+  margin-top: 5px;
+}
+#female,
+#male,
+#other {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.avat-img {
+  width: 100px;
+  margin-top: 20px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+#check1,
+#check2,
+#check3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+#name:focus {
+  border-color: #3166ac;
+}
+#email:hover {
+  border-color: #3166ac;
+}
+#address:hover {
+  border-color: #3166ac;
+}
+#password:hover {
+  border-color: #3166ac;
+}
+#sodienthoai:hover {
+  border-color: #3166ac;
+}
+#confirm:hover {
+  border-color: #3166ac;
+}
+#date:hover {
+  border-color: #3166ac;
+}
+[for="name"]::after {
+  content: "*";
+  padding: 10px;
+  color: red;
+}
+[for="email"]::after {
+  content: "*";
+  padding: 10px;
+  color: red;
+}
+[for="sodienthoai"]::after {
+  content: "*";
+  padding: 10px;
+  color: red;
+}
+[for="password"]::after {
+  content: "*";
+  padding: 10px;
+  color: red;
+}
+[for="confirm"]::after {
+  content: "*";
+  padding: 10px;
+  color: red;
+}
+[for="date"]::after {
+  content: "*";
+  padding: 10px;
+  color: red;
+}
+[for="address"]::after {
+  content: "*";
+  padding: 10px;
+  color: red;
+}
+
+button {
+  padding: 12px 24px;
+  margin-right: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  color: black;
+  cursor: pointer;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+button[type="reset"] {
+  background-color: #aea7a7;
+}
+.submit:hover {
+  background-color: #aea7a7;
+}
+.reset:hover {
+  background-color: red;
+}

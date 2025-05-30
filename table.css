@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+ul li {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.check {
+  color: green;
+  margin-right: 10px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card:nth-child(2) {
+  border: 1px solid #73ff00;
+  background-color: #e7ffe9;
+}
+
+.card ul li::before {
+  content: "✓";
+  color: green;
+  margin-right: 10px;
+}
+button {
+  padding: 5px 5px;
+  cursor: pointer;
+}
+button:hover {
+  border: 1px solid #fff;
+  background-color: chocolate;
+  color: white;
+}
